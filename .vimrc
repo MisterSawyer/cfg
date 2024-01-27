@@ -15,6 +15,9 @@ syntax on
 
 colorscheme monokai
 
+" syntax for .config files
+au BufEnter,BufRead *conf* setf dosini
+
 " Add numbers to each line on the left-hand side.
 set number
 
